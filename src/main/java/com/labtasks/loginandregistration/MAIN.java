@@ -27,6 +27,7 @@ public class MAIN extends Application {
         // Show login page
         Scene loginScene = new Scene(loginRoot);
         primaryStage.setScene(loginScene);
+        primaryStage.setTitle("Login Page");
         primaryStage.show();
     }
 
